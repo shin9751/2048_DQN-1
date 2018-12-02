@@ -1,0 +1,25 @@
+○keras初期設定
+tensorflowはデータ学習、kerasはモデルを生成して操作
+#状態:マス目縦横4マスの16
+#アクション：上下左右へのアクション
+#入力：結合、非結合、ゲームオーバー、動作不可の4次元
+#出力：上下左右
+
+
+○2048への仕込み
+observeの仕込み（board, reward, self.terminal）→観測
+state = boad(の状態)
+
+→actionの選択
+def execute_action(self, action):
+
+moveでアップデート
+
+move判定で結合なら報酬＆罰則（reward）
+
+terminalはmove出来るかで判定
+
+
+
+○agentへの仕込み
+def select_action(self, state, epsilon):

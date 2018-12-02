@@ -1,0 +1,2 @@
+[1022/105539.253:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1022/105539.254:ERROR:exception_snapshot_win.cc(88)] thread ID 4664 not found in process
